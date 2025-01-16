@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2x2 Grid Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        background-image:url(home2.jpg) ;
+        background-size: cover;
+        position: relative;
+
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr  1fr; /* Two columns */
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr;  /* Two rows */
+            gap: 10px;
+            width: 80%;
+            height: 80%;
+          
+        }
+
+        .grid-item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ccc;
+         background-color: antiquewhite;
+            padding: 10px;
+            text-align: center;
+            border-width: 0px;
+            border-radius: 5px;
+
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .grid-item video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <!-- Image -->
+       <a href="https://r.search.yahoo.com/rdclks/dWU9MnJhdm1nbGpvOTdiYSZ1dD0xNzM2NzQ0Mjk5MDQ2JnVvPTgzOTA2Nzk1NTMzNTcxJmx0PTImcz0xJmVzPXFBem1GUFVvWW1YSlBNaWIxb24xdHlkTjdKVzRRbkZUS09kQXhoZDZjc2RWWkRPd09PMjduWEU1VE5yZGlVTHBLVFIyZWZBejlhTy5hZy0t/RV=2/RE=1739336299/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8o1iQWomatAVk_uMbWX2viDVUCUwIPSfLN7zsyu5VZ6Dny0oxSlUpeFkRSrBqsHJ1cMmXh1S6WbbCtHowhzdRMGHW3P7DIGiZ7yMf5DV-vk_1p6-GdxTaj0_WopXNsLiHzQhWr7Ev5xClTxVouO12imK8FkOAe094TOmGbT4Pfg9zRJMf-MuRvfGqbaoqMwQAYF52hQ%26u%3daHR0cHMlM2ElMmYlMmZ3d3cudHJpcG9kZWFsLmNvbSUyZmhvbGlkYXlzJTJma2FzaG1pciUzZnV0bV9zb3VyY2UlM2RiaW5nX3Bja19rYXNobWlyJTI2bXNjbGtpZCUzZGE4NzI3Yzg1NDgxMzFkN2QzNmQ2MWIwMWQ1Nzg4Mjk5%26rlid%3da8727c8548131d7d36d61b01d5788299/RK=2/RS=ufNNy4f1PBXJDgOjFh8LiWY5efw-;_ylt=AwrKFyNrnYRnKwIASMe7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0aca1723ee414ba3a35777532ee512ec"> <div class="grid-item"><div> 
+            <p>KASHMIR</p>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/kashmir.jpg" alt="Sample Image">
+        </div></div></a>
+
+        <a href="https://r.search.yahoo.com/rdclks/dWU9NTUwdDVyZGpvOTdqMSZ1dD0xNzM2NzQ0NTQ2MDA3JnVvPTgwNDAxOTU4MTY1Mjg5Jmx0PTImcz0xJmVzPXVDa3pnbkJjcURVR2lBMjVTQ0dBQ3Zqc1VucHZtc1VKM1RETWViVmNCeGl0ak5KVTlrcHZsMk0uR1BEWWwySmwyZ1FGRXRrVWYxak9oZ2st/RV=2/RE=1739336546/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8Vzf-yBhncBa8W1_eKGFAkzVUCUyrzSxVQJdZM85xBzECm8dWZhEtFlrMZyU_u4soeGECntD9TgCoUSTYTANrsI8526HC7L3mBhiuzhS3LuETsOxfQI7U_J0_zXo9UpGItZwl4a6GLuDNYuL5ClSvS7ZUKnUzzS-Cdmw8lZ1-A00CB6z6Xom3Pvxi3ezDrGHG1csB3Q%26u%3daHR0cCUzYSUyZiUyZnd3dy5ib29raW5nLmNvbSUyZmNpdHklMmZpbiUyZmxlaC5lbi5odG1sJTNmYWlkJTNkODYxNjE5JTI2cGFnZW5hbWUlM2RsZWglMjZsYWJlbCUzZG1zbi01VzVHTEVFdGFnZDBTOEc4Y3B2NmhRLTgwNDAxOTU4MTY1Mjg5JTNhdGlrd2QtODA0MDIxNjY0NTU0MDAlM2Fsb2MtOTAlM2FuZW8lM2FtdGUlM2FscDE0OTA1MyUzYWRlYyUzYXFzbGFkYWtoJTI1MjB0b3VyJTI1MjBwYWNrYWdlcyUyNnV0bV9jYW1wYWlnbiUzZEhvbGlkYXlzJTI1MjAtJTI1MjBJbmRpYSUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV90ZXJtJTNkNVc1R0xFRXRhZ2QwUzhHOGNwdjZoUSUyNm1zY2xraWQlM2QwMTJjNDAxMWZhNzQxNzUxOWI4NTI3OTU2NDE2ZTYyMiUyNnV0bV9jb250ZW50JTNkTGVoJTI1MjAtJTI1MjBVRkklMjUzQS0yMTAyNTkw%26rlid%3d012c4011fa7417519b8527956416e622/RK=2/RS=1.o.4G9FVGElGv2P3E7JU06ggxM-;_ylt=Awr1VTthnoRn6QEAiOa7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0af5553bf2c24632a65777532ee512e4"><div class="grid-item"><div> 
+            <P>LADKAH</P>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/ladakh.jpg" alt="Sample Image">
+        </div></div></a>
+        <a href="https://r.search.yahoo.com/rdclks/dWU9M2xwbzRmaGpvOTdsNyZ1dD0xNzM2NzQ0NjE1NTc2JnVvPTc4NDc3ODU1Njg0MDAyJmx0PTImcz0xJmVzPVVTSE1yc1dDQzdXTzlQRXhMYVFVd21Na0VHODVOZjBvb3NMYmYyQ2FQem1uUHkwVkpkUmx3VjFraldrM2p3MzdqWTFtZXVzUzkuQUVzQS0t/RV=2/RE=1739336616/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8w9sqrLkRTovypcvV6yq4_DVUCUztM0DcwpTebv0DcAzln2baQblgXGOTcv87OgXumBX2VG_um2vQ8ySu68wGI3XVyC_ORDQ1fszWQGA4xOHhdqD8LyxOsJ2fHVBFrvIMZ11BV4IRnmgcWH3f4fd60C1OxmhfEJ4adUTvUkSRnCsJdAD7vw7HkkRC2GJVIZqwy5x7hA%26u%3daHR0cHMlM2ElMmYlMmZ3d3cuZ2V0eW91cmd1aWRlLmNvbSUyZi1sMjMxJTJmLXRjMSUyZiUzZmNtcCUzZGJpbmclMjZjbXAlM2RiaW5nJTI2YWRfaWQlM2Q3ODQ3Nzg1NTY4NDAwMiUyNmFkZ3JvdXBfaWQlM2QxMjU1NjQzNjExODU2MTcyJTI2YmlkX21hdGNoX3R5cGUlM2RiZSUyNmNhbXBhaWduX2lkJTNkNzEwMTE2MTI2JTI2ZGV2aWNlJTNkYyUyNmZlZWRfaXRlbV9pZCUzZCUyNmtleXdvcmQlM2RuZXclMjUyMGRlbGhpJTI1MjB0b3VycyUyNmxvY19pbnRlcmVzdF9tcyUzZDE2NTMlMjZsb2NfcGh5c2ljYWxfbXMlM2QxNDkwNTMlMjZtYXRjaF90eXBlJTNkZSUyNm1zY2xraWQlM2QzNWM0ZWQ3OWE0MTQxNGRlYWIwOThhZmQzYWIzZjY1OCUyNm5ldHdvcmslM2RvJTI2cGFydG5lcl9pZCUzZENEOTUxJTI2dGFyZ2V0X2lkJTNka3dkLTc4NDc4MDk1ODY1MzE3JTI2dXRtX2FkZ3JvdXAlM2RsYyUyNTNEMjMxJTI1M0FuZXclMjUyMGRlbGhpJTI1N0NmbiUyNTNEZjQlMjU3Q2NpJTI1M0Q5NDIlMjUzQXRvdXIlMjZ1dG1fY2FtcGFpZ24lM2RkYyUyNTNENTUlMjUzQWluJTI1N0NsYyUyNTNEMjMxJTI1M0FuZXclMjUyMGRlbGhpJTI1N0NjdCUyNTNEY29yZSUyNTdDbG4lMjUzRDI5JTI1M0FlbiUyNTdDdGMlMjUzRGFsbCUyNnV0bV9rZXl3b3JkJTNkbmV3JTI1MjBkZWxoaSUyNTIwdG91cnMlMjZ1dG1fbWVkaXVtJTNkcGFpZF9zZWFyY2glMjZ1dG1fcXVlcnklM2RkZWxoaSUyNTIwdG91ciUyNTIwcGFja2FnZXMlMjZ1dG1fc291cmNlJTNkYmluZw%26rlid%3d35c4ed79a41414deab098afd3ab3f658/RK=2/RS=H4nV_1Zp6IJNi2FtCc866nIW9Ac-;_ylt=Awr1VTunnoRn6QEA6Fm7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0af5553bab944835865777532ee512e7"><div class="grid-item"><div> 
+            <P>DEHLI</P>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/Delhi.jpg" alt="Sample Image">
+        </div></div>
+        <a href="https://r.search.yahoo.com/rdclks/dWU9NWp2cGg5MWpvOTdvZCZ1dD0xNzM2NzQ0NzE3Nzk5JnVvPTc4NTQ2NTc1MTA4MDQ5Jmx0PTImcz0xJmVzPVhqRjRqc2tDNGFfS1ZuQnFiUW1PNmVqaWhFUWtkdEUyTnZFVFhpSFQ1dEVzWktHSTlrMkR3VkY3V3ZOWWdSeWRQa1JNYkhJX0FsVkJ2U1kt/RV=2/RE=1739336718/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8osryQ1vbYR4d2eOG0a1rMzVUCUxL5bGx3KmdT97bT_ww3fqQfRC5vxRu54vwTdxxugTdRXr0WpBh21juVq6yRkBPIML1H-nDBC9qUDhAyjEdTubCVj7La1yG203y5n4p5tc3T5yR7YgyOEmTDQxzJqfM_8X5t5X-DaizNUIh0Yw_DSdFy8q1sf-pfzSk_iCQ7ZzRMA%26u%3daHR0cHMlM2ElMmYlMmZ3d3cuZ2V0eW91cmd1aWRlLmNvbSUyZi1sODI1JTJmLXRjMTcyJTJmJTNmY21wJTNkYmluZyUyNmNtcCUzZGJpbmclMjZhZF9pZCUzZDc4NTQ2NTc1MTA4MDQ5JTI2YWRncm91cF9pZCUzZDEyNTY3NDMxMjM5NTQwOTMlMjZiaWRfbWF0Y2hfdHlwZSUzZGJwJTI2Y2FtcGFpZ25faWQlM2Q3MTAxMTIzNDElMjZkZXZpY2UlM2RjJTI2ZmVlZF9pdGVtX2lkJTNkJTI2a2V5d29yZCUzZGdvYSUyNTIwZXhjdXJzaW9ucyUyNmxvY19pbnRlcmVzdF9tcyUzZDE2NTUlMjZsb2NfcGh5c2ljYWxfbXMlM2QxNDkwNTMlMjZtYXRjaF90eXBlJTNkcCUyNm1zY2xraWQlM2QwNWFmYTQ2Y2EwODUxMGRiODc1M2MzZTgzZjhiNzk4OCUyNm5ldHdvcmslM2RvJTI2cGFydG5lcl9pZCUzZENEOTUxJTI2dGFyZ2V0X2lkJTNka3dkLTc4NTQ2ODE1MzUzOTUwJTI2dXRtX2FkZ3JvdXAlM2RsYyUyNTNEODI1JTI1M0Fnb2ElMjU3Q2ZuJTI1M0RmNCUyNTdDY2klMjUzRDEyNDMlMjUzQWRheSUyNTIwdHJpcCUyNnV0bV9jYW1wYWlnbiUzZGRjJTI1M0Q1NSUyNTNBaW4lMjU3Q2xjJTI1M0Q4MjUlMjUzQWdvYSUyNTdDY3QlMjUzRGNvcmUlMjU3Q2xuJTI1M0QyOSUyNTNBZW4lMjU3Q3RjJTI1M0RhbGwlMjZ1dG1fa2V5d29yZCUzZGdvYSUyNTIwZXhjdXJzaW9ucyUyNnV0bV9tZWRpdW0lM2RwYWlkX3NlYXJjaCUyNnV0bV9xdWVyeSUzZGdvYSUyNTIwdG91ciUyNTIwcGFja2FnZXMlMjZ1dG1fc291cmNlJTNkYmluZw%26rlid%3d05afa46ca08510db8753c3e83f8b7988/RK=2/RS=kI012x2NdBMqKXgyB9y0sAaK1xM-;_ylt=Awr1VTsNn4Rn6QEAKPa7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0af5553bfa4b43deb35777532ee512e7"> <div class="grid-item"><div> 
+            <P>SIKKIM</P>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/sikkim-tourism.jpg" alt="Sample Image">
+        </div></div></a>
+        <a href="https://r.search.yahoo.com/rdclks/dWU9NWZibzEwMWpvOTdsdSZ1dD0xNzM2NzQ0NjM4NDgyJnVvPTc3OTk2Nzg5ODY4NjYyJmx0PTImcz0xJmVzPVhia2ZkSWlpOVRNQnJrTlRnX0ZwSUdmY1Z2OVFYR3Q3aktYaUhGb0NvOHRZUkFnbWlDZTVDckVnLkJFbTVZV0JMUW84dnhjS25zUWdFZy0t/RV=2/RE=1739336639/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8MHzhsq6MfwJoBaHA1ZA5FjVUCUyllXeHp_OYh7QSlQdYmTxmFNZZeUXaA8OqjFSUMJr06GClacmSQJE743IKMhWhdUg7PkIz8fWF0cX4CDubWlUjRAnCSeCJKXn4RAgTPoK7st0QRzi2CfCmSZU6zvEmb-nJe9KlfboKbd27ZaRi7i3GwTDT0EnMBJezegpktcYcuw%26u%3daHR0cHMlM2ElMmYlMmZ3d3cua2F5YWsuY28uaW4lMmZzZW1pJTJmYmluZ2Fkc3NlYXJjaCUyZmhvdGVsX3JlZ2lvbiUyZnIxNjI0JTJmZW4uaHRtbCUzZm10JTNkZSUyNmJtdCUzZGJiJTI2b2lpZCUzZDc3OTk2OTczNjQ2MTQ4JTI2YWlkJTNkMTI0Nzk0NjI4NzUwMjE0OSUyNmFkaWQlM2Q3Nzk5Njc4OTg2ODY2MiUyNnBpZCUzZCUyNnRpZCUzZGt3ZC03Nzk5Njk3MzY0NjE0OCUzYWxvYy05MCUyNmQlM2RjJTI2biUzZG8lMjZjbXBpZCUzZDM5NjY0MDQyNiUyNm1zY2xraWQlM2RjNDdkNjE4MDljMTQxZjI2NTk1ZDA2MDQwMmFhNDI1ZSUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZERlc3RpbmF0aW9uJTI1MjAtJTI1MjBJTiUyNTIwLSUyNTIwU2lra2ltJTI1MjAtJTI1MjBSZWdpb24lMjUyMzE2MjQlMjZ1dG1fdGVybSUzZHBhY2thZ2VzJTI1MjB0byUyNTIwc2lra2ltJTI2dXRtX2NvbnRlbnQlM2RSZWdpb24lMjUyMC0lMjUyMHNpa2tpbSUyNTIwcGFja2FnZXMlMjUyMC0lMjUyMFQlMjUzRG5vbmUlMjUyMC0lMjUyMFAlMjUzRHBhY2thZ2VzJTI1MjAtJTI1MjBEJTI1M0RSZWdpb24lMjUyMzE2MjQ%26rlid%3dc47d61809c141f26595d060402aa425e/RK=2/RS=aJ6cCDjI2juAWF8154znPNmyVh8-;_ylt=AwrKFyO.noRn6gEAqLe7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0aca1723163b4373995777532ee512e2"> <div class="grid-item"><div> 
+            <P>MEGHALAYA</P>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/Meghalaya-Shillong.jpg" alt="Sample Image">
+        </div></div></a>
+        <a href="https://r.search.yahoo.com/rdclks/dWU9MTFhYjAwZGpvOTdtcCZ1dD0xNzM2NzQ0NjY1NjgyJnVvPTczNjY3NTc0NDI5NTgxJmx0PTImcz0xJmVzPUxRd1h2WmJ5MjRWcmRxV3RCY09iVzlLVE5QS2NONEdqcFU3VTdDQXRlczVENmFMbm5rRTlKR0FuMVprdGdXYTVvNlJTbVBnMmpOTGQ1RzAt/RV=2/RE=1739336666/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8SgMf8mHmQ2fST7SYurSPwDVUCUw3yYZ5S-l8IKGy2Z-c7OlsO6wwwlDOS6GSCnLXzR5hfGyfDAzIxUiQ-C8ZjfdfiS2A_rR-BcbXeIVgopfjeW-mMz1bu6Mhm1KC5L5gG7MPd3XEYywlsB8hga1wNcHamhbTsQ2hVaIIsQLaKRO-4Z96S7m-jafXk1oC6odM5e_GTA%26u%3daHR0cHMlM2ElMmYlMmZ3d3cuYWdvZGEuY29tJTJmcGFydG5lcnMlMmZwYXJ0bmVyc2VhcmNoLmFzcHglM2ZkZXZpY2UlM2RjJTI2bmV0d29yayUzZG8lMjZ1cmwlM2RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRmVuLWluJTI1MkZwYWdlcyUyNTJGYWdvZGElMjUyRmRlZmF1bHQlMjUyRkRlc3RpbmF0aW9uU2VhcmNoUmVzdWx0LmFzcHglMjUzRmNpdHklMjUzRDE0MzgyJTI1MjZzaXRlX2lkJTI1M0QxOTE0OTM2JTI1MjZ0YWclMjUzRGNhYTU5Y2VmLWFiNTctNDc1Ni05MDcxLTgxMmZmMzQ1YzMyZiUyNm1zY2xraWQlM2QwZDFjNWZjZGE0MzgxZTIxOTYxZjM4NDkzYWUyMmI4Nw%26rlid%3d0d1c5fcda4381e21961f38493ae22b87/RK=2/RS=GWDP9KGXDU9JYz7Ta1HWUQ1EKjs-;_ylt=Awr1SffZnoRn6AEAQPK7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0af549f77ae04a8cbb5777532ee512e7"> <div class="grid-item"><div> 
+            <P>KERELA</P>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/Kerala-Houseboat-in-backwater-of-Kerala.jpg" alt="Sample Image">
+        </div></div></a>
+        <a href="https://r.search.yahoo.com/rdclks/dWU9NG9hczdrNWpvOTduaSZ1dD0xNzM2NzQ0NjkwNzQzJnVvPTc0Mjg2MDUwOTM0NDAyJmx0PTImcz0xJmVzPWlmMzk4RTQ1aHZiQi5pUnFSZktySGtwMDBqOEUwVktMMzE5Q3JCenFaZFhCc2lyNWFFLmFUdmszYl9kUV90YkpETGh0ME8zeHk2cjU1MUEt/RV=2/RE=1739336691/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8nF_h7EJxHmDiFekwniEV7DVUCUyDARPVzvBQVWJjJofEkJ4OyPJnIEAuG0JH0reUuB9KpLJV_9A1Et_JxZvJZKo_TEZj3GZq0E8rgihk4sVJWvdHYsJj15lwhiTnUy6S_2wJZ7tw7aSX8_LhQUD5M_IRQZ71waNGeD-Q-rMaxWqzuETpT6C9PkHp6syUGMXS8JJsPw%26u%3daHR0cHMlM2ElMmYlMmZ3d3cuYWdvZGEuY29tJTJmcGFydG5lcnMlMmZwYXJ0bmVyc2VhcmNoLmFzcHglM2ZkZXZpY2UlM2RjJTI2bmV0d29yayUzZG8lMjZ1cmwlM2RodHRwcyUyNTNBJTI1MkYlMjUyRnd3dy5hZ29kYS5jb20lMjUyRmVuLWluJTI1MkZwYWdlcyUyNTJGYWdvZGElMjUyRmRlZmF1bHQlMjUyRkRlc3RpbmF0aW9uU2VhcmNoUmVzdWx0LmFzcHglMjUzRnNlbGVjdGVkcHJvcGVydHklMjUzRDEwNDQ2JTI1MjZjaXR5JTI1M0QxNjkyOCUyNTI2aGlkJTI1M0QxMDQ0NiUyNTI2c2l0ZV9pZCUyNTNEMTkxNDkzNiUyNTI2dGFnJTI1M0QyYWRjMzNkNy0zYzBiLTRiZWQtODVmZS1jMWRlMjk5YmQzYTYlMjZtc2Nsa2lkJTNkNDA0YjcyNzllYzBjMWY2MGNkMzQxNWZkNzJmZjI2Y2U%26rlid%3d404b7279ec0c1f60cd3415fd72ff26ce/RK=2/RS=vo4CBA54alV0_00vwAw44KGdnlk-;_ylt=Awrx_4jynoRn_wEA4IS7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0af1ff88685e4610b15777532ee512e3"> <div class="grid-item"><div> 
+            <P>ANDAMAN</P>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/andaman.jpg" alt="Sample Image">
+        </div></div></a>
+        <a href="https://r.search.yahoo.com/rdclks/dWU9NWp2cGg5MWpvOTdvZCZ1dD0xNzM2NzQ0NzE3Nzk5JnVvPTc4NTQ2NTc1MTA4MDQ5Jmx0PTImcz0xJmVzPVhqRjRqc2tDNGFfS1ZuQnFiUW1PNmVqaWhFUWtkdEUyTnZFVFhpSFQ1dEVzWktHSTlrMkR3VkY3V3ZOWWdSeWRQa1JNYkhJX0FsVkJ2U1kt/RV=2/RE=1739336718/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8osryQ1vbYR4d2eOG0a1rMzVUCUxL5bGx3KmdT97bT_ww3fqQfRC5vxRu54vwTdxxugTdRXr0WpBh21juVq6yRkBPIML1H-nDBC9qUDhAyjEdTubCVj7La1yG203y5n4p5tc3T5yR7YgyOEmTDQxzJqfM_8X5t5X-DaizNUIh0Yw_DSdFy8q1sf-pfzSk_iCQ7ZzRMA%26u%3daHR0cHMlM2ElMmYlMmZ3d3cuZ2V0eW91cmd1aWRlLmNvbSUyZi1sODI1JTJmLXRjMTcyJTJmJTNmY21wJTNkYmluZyUyNmNtcCUzZGJpbmclMjZhZF9pZCUzZDc4NTQ2NTc1MTA4MDQ5JTI2YWRncm91cF9pZCUzZDEyNTY3NDMxMjM5NTQwOTMlMjZiaWRfbWF0Y2hfdHlwZSUzZGJwJTI2Y2FtcGFpZ25faWQlM2Q3MTAxMTIzNDElMjZkZXZpY2UlM2RjJTI2ZmVlZF9pdGVtX2lkJTNkJTI2a2V5d29yZCUzZGdvYSUyNTIwZXhjdXJzaW9ucyUyNmxvY19pbnRlcmVzdF9tcyUzZDE2NTUlMjZsb2NfcGh5c2ljYWxfbXMlM2QxNDkwNTMlMjZtYXRjaF90eXBlJTNkcCUyNm1zY2xraWQlM2QwNWFmYTQ2Y2EwODUxMGRiODc1M2MzZTgzZjhiNzk4OCUyNm5ldHdvcmslM2RvJTI2cGFydG5lcl9pZCUzZENEOTUxJTI2dGFyZ2V0X2lkJTNka3dkLTc4NTQ2ODE1MzUzOTUwJTI2dXRtX2FkZ3JvdXAlM2RsYyUyNTNEODI1JTI1M0Fnb2ElMjU3Q2ZuJTI1M0RmNCUyNTdDY2klMjUzRDEyNDMlMjUzQWRheSUyNTIwdHJpcCUyNnV0bV9jYW1wYWlnbiUzZGRjJTI1M0Q1NSUyNTNBaW4lMjU3Q2xjJTI1M0Q4MjUlMjUzQWdvYSUyNTdDY3QlMjUzRGNvcmUlMjU3Q2xuJTI1M0QyOSUyNTNBZW4lMjU3Q3RjJTI1M0RhbGwlMjZ1dG1fa2V5d29yZCUzZGdvYSUyNTIwZXhjdXJzaW9ucyUyNnV0bV9tZWRpdW0lM2RwYWlkX3NlYXJjaCUyNnV0bV9xdWVyeSUzZGdvYSUyNTIwdG91ciUyNTIwcGFja2FnZXMlMjZ1dG1fc291cmNlJTNkYmluZw%26rlid%3d05afa46ca08510db8753c3e83f8b7988/RK=2/RS=kI012x2NdBMqKXgyB9y0sAaK1xM-;_ylt=Awr1VTsNn4Rn6QEAKPa7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0af5553bfa4b43deb35777532ee512e7"> <div class="grid-item"><div> 
+            <P>GOA</P>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/Goa-Paragliding-in-Goa.jpg" alt="Sample Image">
+        </div></div></a>
+        <a href="https://r.search.yahoo.com/rdclks/dWU9MDdmbmp2dGpvOTd2YyZ1dD0xNzM2NzQ0OTU5NDczJnVvPTc4NDc3ODUyMDg0ODcyJmx0PTImcz0xJmVzPV9qeWxJeDE5M3RydG5kdnlSSEUuNm9ackFITVBuaGFhSzZrVGtDT1h1MUdWSkNCQy50d1A5SEMuS1Z5M3FwdFRZWjFaUXF6NHRnVC5JSDAt/RV=2/RE=1739336960/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8DDDaDXBbm0DvQT4tLNMC9zVUCUyc6kgj3K02fnE9JyiFHjcWYM9Aq0AvVDl7HwJCXgq3i7-thBBR-K1tk7o4eyCskFrGt5ttIwZj43SNkK2TG2NMuyzho-nWk4ZbMb7buWjmQtqQ3vizdck6ggzH9Qw6qmrfCINMinL8mcAl_tiSh2pbeU14Gt0da2dyZt4oWoyc2g%26u%3daHR0cHMlM2ElMmYlMmZ3d3cua2F5YWsuY28uaW4lMmZzZW1pJTJmYmluZ2Fkc3NlYXJjaCUyZmhvdGVsX2Rlc3RpbmF0aW9uJTJmNDQ0ODUlMmZlbi5odG1sJTNmbXQlM2RlJTI2Ym10JTNkYmUlMjZvaWlkJTNkNzg0NzgwNzU3NjQ3OTUlMjZhaWQlM2QxMjU1NjQzNTkwODkzMDM2JTI2YWRpZCUzZDc4NDc3ODUyMDg0ODcyJTI2cGlkJTNkJTI2dGlkJTNka3dkLTc4NDc4MDc1NzY0Nzk1JTNhbG9jLTkwJTI2ZCUzZGMlMjZuJTNkbyUyNmNtcGlkJTNkNTY3Nzk4NTI1JTI2bXNjbGtpZCUzZDM3YTU1MzI1ODdjMzE2Zjg4YmExMzRhMTE4M2M5MzgyJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkRGVzdGluYXRpb24lMjUyMC0lMjUyMElOJTI1MjAtJTI1MjBKYWlzYWxtZXIlMjUyMC0lMjUyMENpdHklMjUyMzQ0NDg1LUcxNTQ5NTg0NTY5NCUyNnV0bV90ZXJtJTNkamFpc2FsbWVyJTI1MjBwYWNrYWdlJTI1MjBkZWFsJTI2dXRtX2NvbnRlbnQlM2RDaXR5JTI1MjAtJTI1MjBqYWlzYWxtZXIlMjUyMHBhY2thZ2VzJTI1MjAtJTI1MjBUJTI1M0Rub25lJTI1MjAtJTI1MjBQJTI1M0RwYWNrYWdlcyUyNTIwLSUyNTIwRCUyNTNEQ2l0eSUyNTIzNDQ0ODU%26rlid%3d37a5532587c316f88ba134a1183c9382/RK=2/RS=Uq2zt_l45LhKfxfPni0NVrCnyE4-;_ylt=AwrKB1X_n4RnhQIAoWW7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0aca075545f541b38e5777532ee512e"> <div class="grid-item"><div> 
+            <P>JAISALMER</p>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/jaisalmer-desert-camel-safari.jpg" alt="Sample Image">
+        </div></div></a>
+        <a href="https://r.search.yahoo.com/rdclks/dWU9N2FvdnRvOWpvOTgzYyZ1dD0xNzM2NzQ1MDg3NTExJnVvPTgwMDU4MzcwMDU2OTc2Jmx0PTImcz0xJmVzPVczUGtoTllfbkVNQnlLYnQ2ejhubEg4RkxBdVlxdXFQSFdrRkdPNkxYZTl3VmJpaFNVdzc0eWU1MjFRUnJkR05Id25PM2dvT2ZsRnQ5QS0t/RV=2/RE=1739337088/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8MVlzzGIrsEWTEIZTUHxysjVUCUydG_0cDvi96mJoY9SbDJc80Om3JAztDaXDn1BmRMbbNUlcIZyA8DJUvEIoGcQ2M-WvV-kXzJ9sVhSAgNREqBcAmhg-YN42ZtXZf1sdUtoaaxOILtQPWehNHJ1XJqzadp2m9mlOv1LO-U4q8Oil_cEfdwmqmcGoE6cNITrMkBdRjQ%26u%3daHR0cHMlM2ElMmYlMmZ3d3cuYm9va2luZy5jb20lMmZyZWdpb24lMmZpbiUyZmt1dGNoLmVuLmh0bWwlM2ZhaWQlM2Q4MDMxMDklMjZwYWdlbmFtZSUzZGt1dGNoJTI2bGFiZWwlM2Rtc24tZXB1aXdmRlFqKioxeW9Ucl9SdDVUdy04MDA1ODM3MDA1Njk3NiUzYXRpa3dkLTgwMDU4NTY3OTI2MzYyJTNhbG9jLTkwJTNhbmVvJTNhbXRlJTNhbHAxNDkwNTMlM2FkZWMlM2Fxc3J1biUyNTIwb2YlMjUyMGt1dGNoJTI1MjB0b3VyJTI1MjBwYWNrYWdlcyUyNnV0bV9jYW1wYWlnbiUzZEFjY29tbW9kYXRpb24lMjUyMC0lMjUyMEluZGlhJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX3Rlcm0lM2RlcHVpd2ZGUWoqKjF5b1RyX1J0NVR3JTI2bXNjbGtpZCUzZGU1N2Q3MmE2NzBiMjFhZjk2ZWE0MTUyMmQwY2RjMjBjJTI2dXRtX2NvbnRlbnQlM2RSJTI1M0ExNTc0MC1rdXRjaA%26rlid%3de57d72a670b21af96ea41522d0cdc20c/RK=2/RS=vDJYvnBk1mYsSuXlczwuQ_TV3Ns-;_ylt=AwrPpbh_oIRn6AEAimm7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0acfa5b80a5c4724ad5777532ee512e6"> <div class="grid-item"><div>
+            <P>RUN OF KUTCH</P>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/run-of-kutch.jpg" alt="Sample Image">
+        </div></div></a>
+        <a href=""> <div class="grid-item">
+           <div> <P>SUNDERBANS</P>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/sunderbans-tiger-safari.jpg" alt="Sample Image">
+        </div></div></a>
+        
+        <a href="https://r.search.yahoo.com/rdclks/dWU9N2FvdnRvOWpvOTgzYyZ1dD0xNzM2NzQ1MDg3NTExJnVvPTgwMDU4MzcwMDU2OTc2Jmx0PTImcz0xJmVzPVczUGtoTllfbkVNQnlLYnQ2ejhubEg4RkxBdVlxdXFQSFdrRkdPNkxYZTl3VmJpaFNVdzc0eWU1MjFRUnJkR05Id25PM2dvT2ZsRnQ5QS0t/RV=2/RE=1739337088/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8MVlzzGIrsEWTEIZTUHxysjVUCUydG_0cDvi96mJoY9SbDJc80Om3JAztDaXDn1BmRMbbNUlcIZyA8DJUvEIoGcQ2M-WvV-kXzJ9sVhSAgNREqBcAmhg-YN42ZtXZf1sdUtoaaxOILtQPWehNHJ1XJqzadp2m9mlOv1LO-U4q8Oil_cEfdwmqmcGoE6cNITrMkBdRjQ%26u%3daHR0cHMlM2ElMmYlMmZ3d3cuYm9va2luZy5jb20lMmZyZWdpb24lMmZpbiUyZmt1dGNoLmVuLmh0bWwlM2ZhaWQlM2Q4MDMxMDklMjZwYWdlbmFtZSUzZGt1dGNoJTI2bGFiZWwlM2Rtc24tZXB1aXdmRlFqKioxeW9Ucl9SdDVUdy04MDA1ODM3MDA1Njk3NiUzYXRpa3dkLTgwMDU4NTY3OTI2MzYyJTNhbG9jLTkwJTNhbmVvJTNhbXRlJTNhbHAxNDkwNTMlM2FkZWMlM2Fxc3J1biUyNTIwb2YlMjUyMGt1dGNoJTI1MjB0b3VyJTI1MjBwYWNrYWdlcyUyNnV0bV9jYW1wYWlnbiUzZEFjY29tbW9kYXRpb24lMjUyMC0lMjUyMEluZGlhJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX3Rlcm0lM2RlcHVpd2ZGUWoqKjF5b1RyX1J0NVR3JTI2bXNjbGtpZCUzZGU1N2Q3MmE2NzBiMjFhZjk2ZWE0MTUyMmQwY2RjMjBjJTI2dXRtX2NvbnRlbnQlM2RSJTI1M0ExNTc0MC1rdXRjaA%26rlid%3de57d72a670b21af96ea41522d0cdc20c/RK=2/RS=vDJYvnBk1mYsSuXlczwuQ_TV3Ns-;_ylt=AwrPpbh_oIRn6AEAimm7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0acfa5b80a5c4724ad5777532ee512e6"> <div class="grid-item">
+            <div>
+                <p>HAMPI</p>
+           <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/Hampi-Karnataka.jpg" alt="Sample Image">
+        </div></div></a>
+      <a href="https://r.search.yahoo.com/rdclks/dWU9N2FvdnRvOWpvOTgzYyZ1dD0xNzM2NzQ1MDg3NTExJnVvPTgwMDU4MzcwMDU2OTc2Jmx0PTImcz0xJmVzPVczUGtoTllfbkVNQnlLYnQ2ejhubEg4RkxBdVlxdXFQSFdrRkdPNkxYZTl3VmJpaFNVdzc0eWU1MjFRUnJkR05Id25PM2dvT2ZsRnQ5QS0t/RV=2/RE=1739337088/RO=14/RU=https%3a%2f%2fwww.bing.com%2faclick%3fld%3de8MVlzzGIrsEWTEIZTUHxysjVUCUydG_0cDvi96mJoY9SbDJc80Om3JAztDaXDn1BmRMbbNUlcIZyA8DJUvEIoGcQ2M-WvV-kXzJ9sVhSAgNREqBcAmhg-YN42ZtXZf1sdUtoaaxOILtQPWehNHJ1XJqzadp2m9mlOv1LO-U4q8Oil_cEfdwmqmcGoE6cNITrMkBdRjQ%26u%3daHR0cHMlM2ElMmYlMmZ3d3cuYm9va2luZy5jb20lMmZyZWdpb24lMmZpbiUyZmt1dGNoLmVuLmh0bWwlM2ZhaWQlM2Q4MDMxMDklMjZwYWdlbmFtZSUzZGt1dGNoJTI2bGFiZWwlM2Rtc24tZXB1aXdmRlFqKioxeW9Ucl9SdDVUdy04MDA1ODM3MDA1Njk3NiUzYXRpa3dkLTgwMDU4NTY3OTI2MzYyJTNhbG9jLTkwJTNhbmVvJTNhbXRlJTNhbHAxNDkwNTMlM2FkZWMlM2Fxc3J1biUyNTIwb2YlMjUyMGt1dGNoJTI1MjB0b3VyJTI1MjBwYWNrYWdlcyUyNnV0bV9jYW1wYWlnbiUzZEFjY29tbW9kYXRpb24lMjUyMC0lMjUyMEluZGlhJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX3Rlcm0lM2RlcHVpd2ZGUWoqKjF5b1RyX1J0NVR3JTI2bXNjbGtpZCUzZGU1N2Q3MmE2NzBiMjFhZjk2ZWE0MTUyMmQwY2RjMjBjJTI2dXRtX2NvbnRlbnQlM2RSJTI1M0ExNTc0MC1rdXRjaA%26rlid%3de57d72a670b21af96ea41522d0cdc20c/RK=2/RS=vDJYvnBk1mYsSuXlczwuQ_TV3Ns-;_ylt=AwrPpbh_oIRn6AEAimm7HAx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA292LXRvcA--;_ylc=X3IDMgRydAMw?IG=0acfa5b80a5c4724ad5777532ee512e6"><p>for more places</p></a>
+    </div>
+</body>
+</html>

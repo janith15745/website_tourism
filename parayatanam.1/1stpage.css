@@ -1,0 +1,103 @@
+.taj{
+    border-radius: 5px;
+    border-color: black;
+    border-width: 5px;
+    height: 120px;
+    width: 100px;
+    padding: 10px;
+    
+}
+.tajmahal{
+    background-color: beige;
+    border-radius: 5px;
+    
+    height: 350px;
+    width:140px;
+    
+    text-decoration:none ;
+    margin: 10px;
+}
+body{
+    background-image:url(web.jpg) ;
+    background-size: cover;
+    
+
+  
+}
+h1{
+    color:deeppink;
+    font-style:normal;
+    font-variant: small-caps;
+    font-size: 40px;
+    text-align: center;
+    width:100% ;
+    text-decoration:2px dotted underline;
+    text-shadow:2px 3px 5px black  ;
+    
+    
+  
+}
+.p2{
+    color:aqua;
+}
+
+    
+
+.jim{
+    background-color: beige;
+    border-radius: 5px;
+    border-color:red;
+    border-width: 5px;
+    height: 350px;
+    width:140px;
+   text-shadow:2px 3px black 5px ;
+    text-decoration: none;
+    margin: 10px;
+    
+    outline: 2px dotted red ;
+}
+.impal{
+    background-color: beige;
+    border-radius: 10px;
+    border-color:red;
+    border-width: 5px;
+    height: 350px;
+    width:140px;
+    padding-left: 2px;
+    margin: 10px;
+}
+.udaip{
+    background-color: beige;
+    border-radius: 5px;
+    border-color:red;
+    border-width: 5px;
+    height: 350px;
+    width:140px;
+    
+    margin: 10px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr  1fr; /* Two columns */
+    
+    gap: 10px;
+    width: 80%;
+    height: 80%;
+  
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+ 
+    padding: 10px;
+    text-align: center;
+    border-width: 0px;
+    border-radius: 5px;
+
+}
